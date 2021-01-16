@@ -1,0 +1,25 @@
+html { 
+    background-color: black;
+}
+
+.container-dash {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+img { 
+    margin-top: 20px;
+    margin-left: 73px;
+}
+
+.button-dash { 
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 210px;
+    height: 113px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-image: url('../../../assets/button-dashboard-bg.jpg');
+    background-size: 210px;
+}

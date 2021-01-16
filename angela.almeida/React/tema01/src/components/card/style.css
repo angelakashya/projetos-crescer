@@ -1,0 +1,73 @@
+.bg-red { 
+    background-color: red;
+}
+
+.bg-blue {
+    background-color:blue;
+}
+
+.bg-green { 
+    background-color:green;
+}
+
+.bg-light-blue { 
+    background-color: lightblue;
+}
+
+.bg-black { 
+    background-color: black;
+}
+
+.bg-orange { 
+    background-color: orange;
+}
+
+.bg-purple { 
+    background-color: purple;
+}
+
+.bg-gray { 
+    background-color: grey;
+}
+
+.bg-yellow { 
+    background-color: yellow;
+}
+
+.image-background {
+    opacity: 0.5;
+    margin-top: 0px;
+}
+
+.text span { 
+   margin-left: 107px;
+   margin-top: -89px;
+   color: white;
+   font-weight: bold;
+}
+
+.text p {
+    margin-left: 107px;
+    margin-top: -62px;
+    color: white;
+}
+
+.avatar img { 
+    width: 85px;
+    height: 90px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+div { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 1px; 
+}
+
+h1 { 
+    font-weight: bold;
+}

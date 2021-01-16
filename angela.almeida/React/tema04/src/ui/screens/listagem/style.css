@@ -1,0 +1,10 @@
+.title { 
+   margin-left: 500px;
+}
+
+
+.cards-list { 
+    display:flex;
+    flex-wrap: wrap;
+}
+

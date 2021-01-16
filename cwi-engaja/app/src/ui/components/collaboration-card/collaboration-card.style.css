@@ -1,0 +1,37 @@
+.card {
+  padding: 26px 42px 38px 38px;
+  background: #FFFFFF;
+  box-shadow: 0px -2px 8px rgba(150, 150, 150, 0.25);
+  border-radius: 10px;
+  width: 469px;
+  height: 419px;
+  margin-bottom: 86px;
+}
+
+.titulo-card h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.titulo-card strong {
+  font-weight: 600;
+}
+
+.titulo-card h2::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 116px;
+  background-color: #FBB041;
+  margin-top: 2px;
+  margin-bottom: 18px;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 8px;
+  height: 78px;
+}

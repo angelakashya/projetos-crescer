@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d9dbde;
+}
+
+.instagram-post {
+    min-width: 395px;
+    width: 395px;
+    height: 700px;
+    border: 10px solid #333;
+    border-radius: 30px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.header {
+    max-width: 100%;
+}

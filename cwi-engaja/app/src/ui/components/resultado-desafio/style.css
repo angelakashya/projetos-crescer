@@ -1,0 +1,74 @@
+.container-resultado-desafio {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin-bottom: 200px;
+  margin-top: 96px;
+}
+
+.container-tabela-resultados {
+  width: 668px;
+  height: 500px;
+  box-shadow: 0px -2px 8px rgba(150, 150, 150, 0.25);
+  border-radius: 10px;
+  padding: 23px 24px 20px 30px;
+}
+
+.container-resultados {
+  height: 360px;
+  overflow-y: auto;
+}
+
+.container-resultados::-webkit-scrollbar {
+  width: 5px;
+}
+
+.container-resultados::-webkit-scrollbar-track {
+  background: #EBE8E8;
+  border-radius: 3px;
+  height: 100%;
+}
+
+.container-resultados::-webkit-scrollbar-thumb {
+  background: #FBB041;
+  max-height: 164px;
+  border-radius: 3px;
+}
+
+.container-header-tabela {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.titulo-tabela {
+  font-weight: normal;
+  font-size: 24px;
+  color: #333333;
+}
+
+.corpo-tabela {
+  padding: 0 30px;
+}
+
+.linha-tabela {
+  border: none;
+}
+
+.texto-copiar {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.texto-copiar svg {
+  display: inline;
+  margin-right: 10px;
+}
+
+.bt-clipboard {
+  padding: 6px 16px;
+}

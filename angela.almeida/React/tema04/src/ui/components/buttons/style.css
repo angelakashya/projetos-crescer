@@ -1,0 +1,12 @@
+.pagination li a{ 
+    color: white;
+}
+
+.MuiPagination-ul li .MuiPaginationItem-page.Mui-selected {
+    background-color: darkgray;
+    color: white;
+}
+
+.pagination {
+    margin: 0 35%;
+}

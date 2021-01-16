@@ -1,0 +1,25 @@
+.menu-container { 
+    align-items: center;
+    margin: 10px;
+    width: 20%;
+}
+
+.menu-container .menu-border { 
+    margin: 0;
+    width: 100%;
+}
+
+.menu-container .menu-border .menu-card { 
+    box-sizing: border-box;
+    background-color: #ffffff;
+    opacity: 0.9;
+    padding: 10px 0;
+}
+
+.menu-container .menu-border .menu-card .menu-title {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+

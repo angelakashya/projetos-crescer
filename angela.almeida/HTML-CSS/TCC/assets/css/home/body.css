@@ -1,0 +1,546 @@
+
+* { 
+    box-sizing: border-box;
+}
+
+body, p{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+
+.presentation { 
+    position: relative;
+    top: -19px;
+    align-items: center;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url("../../img/IMAGEM\ PARA\ EXPORTAR.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+.presentation .presentation-text-box {
+    width: 100%;
+}
+.presentation .presentation-text-box h1 {
+    padding-top: 220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+    margin-left: 73px;
+}
+
+.presentation .presentation-text-box p{
+    padding-top: 8px;
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 73px;
+    width: 100%;
+}
+
+.button-position { 
+    display:flex;
+    align-content: center;
+    margin-left: 73px;
+    margin-top: 27px;
+    width: 15%;
+    height: 10%
+}
+
+
+.button-about-presentation {
+    background-color: #ff8e6e;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.about {
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 100%;
+    min-height: 100vh;
+    background-size: cover; 
+    background-position: center;
+    margin-top: -2px;
+}
+
+.about .about-info {
+    display: flex;
+    justify-content: space-between;
+}
+.text-box {
+    margin-left: 73px;
+    padding-top: 170px;
+
+}
+
+.illustration-about { 
+    padding-top: 170px;
+    margin-left: 100px;
+}
+
+.about .text-box span {
+   color: #515070;
+    font-family: Open Sans; 
+    font-size: 18px;
+}
+
+.about .text-box h1 { 
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #ff8e6e;
+    font-size: 48px;
+}
+
+.about .text-box p { 
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #898989;
+}
+
+.about-button {
+    align-content: center;
+    margin-left: 73px;
+    margin-top: 27px;
+    width: 15%;
+    height: 10%
+}
+
+.about-button a { 
+    background-color: #515070;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.illustration-contact { 
+    padding-top: 170px;
+    margin-left: 100px;
+}
+
+.services { 
+    background-image: url(/assets/img/IMAGEM\ PARA\ EXPORTAR\ SERVIÇOS.jpg);
+    align-items: center;
+    max-width: 100%;
+    min-height: 100vh;
+    background-size: cover; 
+    background-position: center;
+}
+
+.services .text-box span {
+    font-family: Open Sans;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.services .text-box h1 { 
+    font-family: Montserrat;
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.services .text-box p {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 29px;
+}
+
+.services-button { 
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 73px;
+}
+.services-button a {
+    background-color: #ff8e6e;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.brief { 
+    background-color: #f6f6f6;
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 100vh;
+    background-size: cover; 
+    background-position: center;
+}
+
+.avatar {
+    width: 23%;
+    margin-top: 34px;
+}
+
+.brief-info { 
+    margin-top: 43px;
+}
+
+.brief .text-box p {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #515070;
+}
+
+.brief .text-box h1 { 
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ff8e6e;
+}
+
+.cards { 
+    margin-left: 73px;
+    padding-top: 23px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.brief-box { 
+    width: 580px;
+    height: 217px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 34px 0px #083578 5%;
+    margin-right: 3%;
+}
+.brief-box .name { 
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    color: #515070;
+    padding-top: 7%;
+}
+
+.brief-box .date { 
+    color: #ff8e6e;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+
+.box-content { 
+    display: flex;
+    margin-left: 3.45%;
+    margin-top: -3.78%;
+    margin-bottom: 6%;
+}
+
+.brief-box .brief-text, .brief-box-right .brief-text{ 
+    margin-left: 3.45%;
+    width: 101%;
+}
+
+.brief-box .brief-text p { 
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #898989;
+    line-height: 24px;
+
+}
+
+
+.func { 
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 722px;
+    background-size: cover; 
+    background-position: center;
+}
+
+.func  h1 { 
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ff8e6e;
+    padding-top: 59px;
+}
+
+.func .func-cards {
+    display: flex;
+}
+.phone img{
+    margin-left: 10px;
+}
+
+.func-info-box { 
+    margin-left: 49px;
+}
+
+.info-box {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.func-info-box h2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.func-info-box p { 
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.headphone { 
+    margin-left: -67px;
+}
+
+.info-box {
+    margin-top: 80px;
+}
+
+.info-box img { 
+    margin-right: 22px;
+}
+
+.phone { 
+    margin-top: 10px;
+}
+
+.contact { 
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 722px;
+    background-size: cover; 
+    background-position: center;
+    background-color: #f6f6f6;
+}
+
+.contact .contact-info { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .text-box {
+    margin-left: 73px;
+    padding-top: 170px;
+}
+
+.contact .text-box span {
+    color: #515070;
+     font-family: Open Sans; 
+     font-size: 18px;
+ }
+ 
+ .contact .text-box h1 { 
+     font-family: Montserrat;
+     font-weight: bold;
+     color: #ff8e6e;
+     font-size: 48px;
+ }
+ 
+ .contact .text-box p { 
+     font-family: Open Sans;
+     font-size: 14px;
+     color: #898989;
+ }
+ 
+ .contact-button {
+     align-content: center;
+     margin-left: 73px;
+     margin-top: 27px;
+     width: 15%;
+     height: 10%
+ }
+ 
+ .contact-button a { 
+     background-color: #515070;
+     font-family: Montserrat;
+     color: #ffffff;
+     font-weight: bold;
+     font-size: 14px;
+     text-align: center;
+     padding: 20px;
+     border-radius: 3px;
+ }
+
+@media screen and (max-width: 800px) {
+
+    .presentation {
+        background-image: url("/assets/img/presentation-img-mobile.svg")
+    }
+    .button-position { 
+        position: relative;
+        display:flex;
+        align-content: center;
+        margin-left: 10px;
+        margin-top: 16px;
+        width: 39%;
+    }
+
+    .button-about-presentation {
+        background-color: #515070;
+        width: auto;
+    }
+
+    .presentation .presentation-text-box h1 {
+        margin-left: 18px;
+        font-size: 38px;
+    }
+
+    .presentation .presentation-text-box p  {
+        margin-left: 21px;
+        font-size: 18px;
+    }
+
+    .about { 
+        /* background-image: url("/assets/img/about-img-mobile.svg"); */
+    }
+
+    .about-text-box { 
+        position: relative;
+        top: 350px;
+        left: 73px;
+    }
+
+    .about .about-text-box h1 { 
+        font-family: Montserrat;
+        font-weight: bold;
+        color: #ff8e6e;
+        font-size: 32px;
+    }
+ 
+    .about .about-info { 
+        flex-direction: column-reverse;
+    }
+
+    .about .about-info .illustration-about { 
+        margin-left: 37px;
+    }
+
+    .about .about-info .illustration-about img {
+        width: 335.32px;
+        height: 206.63px;
+    }
+
+
+    .about-button {
+        align-content: center;
+        margin-left: 75px;
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .about-button a { 
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .cards { 
+        display: block;
+        align-content: center;
+    }
+    
+    .brief-box { 
+        width: 340px;
+        height: 324px;
+    }
+    .avatar { 
+        margin-left: 104px;
+    }
+
+    .brief h1 { 
+        font-size: 32px;
+    }
+    .brief-info { 
+        margin-top: 118px;
+        margin-left: -132px;
+    }
+    .brief .text-box {
+        margin-left: 19px;
+    }
+
+    .brief .cards { 
+        margin-left: 14px;
+    }
+
+    .func { 
+        height: 1426px;
+    }
+
+    .func h1 { 
+        font-size: 32px;
+    }
+    .func .func-info-box {
+        order: 1;
+    }
+    .func .func-cards {
+        flex-direction: column;
+    }
+
+   .func .phone { 
+    order: 2;
+    margin-top: -7px;
+    margin-left: 3px;
+   }
+
+   .contact-text-box { 
+    position: relative;
+    top: 350px;
+    left: 73px;
+    }
+
+    .contact .text-box h1 { 
+        font-family: Montserrat;
+        font-weight: bold;
+        color: #ff8e6e;
+        font-size: 32px;
+    }
+
+    .contact .contact-info { 
+        flex-direction: column-reverse;
+    }
+
+    .contact .contact-info .illustration-contact {
+        margin-left: 21px;
+    }
+
+    .contact .contact-info .illustration-contact img {
+        width: 333px;
+        height: 232px;
+    }
+
+    .contact-button {
+        align-content: center;
+        margin-left: 75px;
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .contact-button a { 
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}

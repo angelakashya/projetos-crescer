@@ -1,0 +1,54 @@
+.header {
+  position: absolute;
+  width: 1280px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 90px;
+  background-color: #fff;
+}
+  
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo svg {
+  width: 224px;
+  height: 48px;
+}
+
+.usuario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.usuario img {
+  width: 40;
+  height: 40px;
+  border: 1px solid #E2E2E2;
+  border-radius: 50%;
+}
+
+.usuario h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #A5A9AC;
+  margin-right: 8px;
+}
+
+.bt-header {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  margin-left: 6px;
+}
+
+.simple-menu  { 
+  position: absolute;
+  margin-top: 50px;
+}

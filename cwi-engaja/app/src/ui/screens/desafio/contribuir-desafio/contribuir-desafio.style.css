@@ -1,0 +1,261 @@
+.container-contribuir-desafio {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.texto-contribuir-desafio {
+  color: #333333;
+  line-height: 43px;
+  font-weight: 800;
+  font-size: 36px;
+  margin-bottom: 26px;
+  margin-top: 60px;
+  max-width: 640px;
+}
+
+.menu-topo {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.top-bar {
+  background: #333333;
+  border-radius: 12px;
+  display: flex;
+  width: 100%;
+  height: 112px;
+  justify-content: space-between;
+  color: #F9AF42;
+  padding: 27px 30px 27px 37px;
+  align-items: center;
+}
+
+.pipe {
+  border: 1px solid #A5A9AC;
+  height: 23px;
+  margin: 0 22px
+}
+
+.menu-topo h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.menu-topo h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 6px;
+}
+
+.font-tertiary h4 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 800;
+}
+
+.font-tertiary h5 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.container-itens-desafio {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  max-height: 670px;
+}
+
+.metas-detalhes h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.separacao-titulo {
+  margin-top: 40px;
+}
+
+.progressao-meta-valor {
+  font-size: 13px;
+}
+
+.menu-topo-adm h3 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.desafio-encerrado {
+  margin-top: -26px;
+}
+
+.div-prestar-contas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.prestacao-aviso {
+  background-color: #EB5757;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  height: 19px;
+  width: 204px;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 12px;
+  line-height: 11px;
+}
+
+.texto-prestacao {
+  padding-top: 13px;
+}
+
+.div-interacoes-detalhes {
+  margin-top: 112px;
+  margin-bottom: 96px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comentarios {
+  max-height: 600px;
+  max-width: 700px;
+  overflow: auto;
+}
+
+.col-descricao {
+  overflow: auto;
+  margin-bottom: 60px;
+}
+
+.comentarios::-webkit-scrollbar, .col-descricao::-webkit-scrollbar{
+  width: 5px;
+}
+
+.comentarios::-webkit-scrollbar-track, .col-descricao:-webkit-scrollbar-track {
+  background: #EBE8E8;
+  border-radius: 3px;
+  height: 100%;
+}
+
+.comentarios::-webkit-scrollbar-thumb, .col-descricao::-webkit-scrollbar-thumb {
+  background: #FBB041;
+  max-height: 164px;
+  border-radius: 3px;
+}
+
+.titulo-comentario h2 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 40px;
+  margin-left: 6px;
+}
+
+.card-comentario {
+  cursor: pointer;
+  border: none;
+  background-color: #FFF;
+  margin-bottom: 16px;
+  width: 670px;
+  max-height: 192px;
+  box-shadow: 0px -2px 8px rgba(150, 150, 150, 0.25);
+  border-radius: 10px;
+  margin-left: 6px;
+  margin-top: 6px;
+  margin-right: 16px;
+  padding: 24px 18px;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+}
+
+.card-comentario > div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.comentar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.card-comentario > div img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #E2E2E2;
+  margin-right: 8px;
+}
+
+.info-usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-usuario p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.info-usuario span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #C4C4C4;
+  line-height: 20px;
+}
+
+.comentario-texto {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.div-comentario-vazio {
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 442px;
+  margin-top: -26px;
+  margin-left: 6px;
+  margin-bottom: 42px;
+}
+
+.comentar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 6px;
+  width: 681px;
+}
+
+
+.comentar button {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  color: #FBB041;
+}

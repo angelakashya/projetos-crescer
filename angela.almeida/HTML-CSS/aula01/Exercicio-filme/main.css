@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    background-color: #999391;
+}
+
+h1 { 
+    text-align: center;
+    padding-top: 20px;
+    color:  #ED2F11;
+}
+
+h2 { 
+    text-align: center;
+    padding-top: 20px;
+    color: #ED2F11;
+}
+
+.text-box { 
+    display: block;
+    margin-left: 500px;
+    padding-left:10px;
+    width: 400px;
+    height: 300px;
+    border: dotted 5px rgba(0, 0, 0, 0.7 );
+}
+
+.poster { 
+    border-style: dashed 5px black;
+    margin-left: 30px;
+}

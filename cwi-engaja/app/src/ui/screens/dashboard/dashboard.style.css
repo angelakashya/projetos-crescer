@@ -1,0 +1,5 @@
+.container-dashboard {
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}

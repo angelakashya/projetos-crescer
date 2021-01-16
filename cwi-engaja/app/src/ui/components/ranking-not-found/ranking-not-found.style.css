@@ -1,0 +1,18 @@
+.container-not-found-ranking h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 322px;
+}
+
+.bg-figura-ranking-not-found {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #FFF;
+  border: 1px solid #E2E2E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}

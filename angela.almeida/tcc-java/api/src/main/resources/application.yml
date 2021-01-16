@@ -1,0 +1,14 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /tcc-java
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    username: ALUNO1_CRE
+    password: ALUNO1_CRE
+    url: jdbc:oracle:thin:@10.99.220.86:1521:ORCL
+    driver-class-name: oracle.jdbc.OracleDriver

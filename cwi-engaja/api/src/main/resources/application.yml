@@ -1,0 +1,24 @@
+server:
+    port: 8080
+error:
+      include-message: ALWAYS
+      include-stacktrace: NEVER
+      include-binding-errors: NEVER
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+spring:
+  jpa:
+  hibernate:
+        ddl-auto: validate
+  database-platform: org.hibernate.dialect.Oracle12cDialect
+  datasource:
+    hikari:
+        maximum-pool-size: 3
+    username: CWIENGAJA
+    password: CWIENGAJA
+    url: jdbc:oracle:thin:@10.99.220.86:1521:orcl
+    driver-class-name: oracle.jdbc.OracleDriver
